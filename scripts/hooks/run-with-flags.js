@@ -12,6 +12,7 @@ const fs = require('fs');
 const path = require('path');
 const { spawnSync } = require('child_process');
 const { isHookEnabled } = require('../lib/hook-flags');
+const { getPluginRoot } = require('../lib/plugin-root');
 
 const MAX_STDIN = 1024 * 1024;
 
@@ -28,13 +29,6 @@ function readStdinRaw() {
     process.stdin.on('end', () => resolve(raw));
     process.stdin.on('error', () => resolve(raw));
   });
-}
-
-function getPluginRoot() {
-  if (process.env.CLAUDE_PLUGIN_ROOT && process.env.CLAUDE_PLUGIN_ROOT.trim()) {
-    return process.env.CLAUDE_PLUGIN_ROOT;
-  }
-  return path.resolve(__dirname, '..', '..');
 }
 
 async function main() {
