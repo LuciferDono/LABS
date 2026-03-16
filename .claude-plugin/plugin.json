@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "Lazy-loading ECC fork — full Claude Code enhancement suite with on-demand component loading via registry-driven auto-detection",
   "author": {
-    "name": "Affaan Mustafa",
-    "url": "https://x.com/affaanmustafa"
+    "name": "LuciferDono"
   },
-  "homepage": "https://github.com/affaan-m/everything-claude-code",
-  "repository": "https://github.com/affaan-m/everything-claude-code",
+  "homepage": "https://github.com/LuciferDono/LABS",
+  "repository": "https://github.com/LuciferDono/LABS",
   "license": "MIT",
   "keywords": [
     "tdd",
