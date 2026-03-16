@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_github_github__get_file_contents",
+      "Bash(git:*)",
+      "Bash(find:*)",
+      "mcp__agent-browser__browser_new_session",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "Bash(claude mcp:*)",
+      "Bash(npx playwright:*)",
+      "Bash(cat:*)",
+      "Bash(python3:*)",
+      "Bash(gh api:*)",
+      "Bash(for skill:*)",
+      "mcp__plugin_github_github__search_code",
+      "Bash(for agent:*)",
+      "Bash(for ctx:*)",
+      "Bash(cd:*)"
+    ]
+  }
+}
