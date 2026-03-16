@@ -1,7 +1,7 @@
 {
-  "name": "everything-claude-code",
-  "version": "1.8.0",
-  "description": "Complete collection of battle-tested Claude Code configs from an Anthropic hackathon winner - agents, skills, hooks, and rules evolved over 10+ months of intensive daily use",
+  "name": "labs",
+  "version": "1.0.0",
+  "description": "Lazy-loading ECC fork — full Claude Code enhancement suite with on-demand component loading via registry-driven auto-detection",
   "author": {
     "name": "Affaan Mustafa",
     "url": "https://x.com/affaanmustafa"
@@ -10,16 +10,13 @@
   "repository": "https://github.com/affaan-m/everything-claude-code",
   "license": "MIT",
   "keywords": [
-    "claude-code",
-    "agents",
-    "skills",
-    "hooks",
-    "rules",
     "tdd",
-    "code-review",
     "security",
+    "planning",
+    "agents",
     "workflow",
-    "automation",
-    "best-practices"
+    "orchestration",
+    "lazy-loading",
+    "registry"
   ]
 }
