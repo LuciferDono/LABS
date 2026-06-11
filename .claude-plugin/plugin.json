@@ -1,6 +1,6 @@
 {
   "name": "labs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Lazy-loading ECC fork — full Claude Code enhancement suite with on-demand component loading via registry-driven auto-detection",
   "author": {
     "name": "LuciferDono"

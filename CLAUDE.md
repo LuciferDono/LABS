@@ -70,9 +70,9 @@ See `AGENTS.md` for the full agent dispatch protocol. Key agents:
 ```
 REGISTRY.md          — Component index (read at session start)
 registry.json        — Source of truth (machine-readable)
-agents/              — 18 specialized subagent definitions
-skills/              — 94 lazy-loaded skill directories
-commands/            — 48 slash commands
+agents/              — 38 specialized subagent definitions
+skills/              — 146 lazy-loaded skill directories
+commands/            — 72 slash commands
 contexts/            — 3 behavioral modes (dev/research/review)
 hooks/               — Hook configuration (profile-gated)
 scripts/             — Runtime libraries and hook implementations
