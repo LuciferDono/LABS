@@ -12,7 +12,7 @@ claude plugin add LuciferDono/LABS
 
 ## How It Works
 
-At session start, Claude reads only `REGISTRY.md` -- a compact trigger-table covering all 163 components. When a user request matches a trigger, the corresponding skill/agent/command file is loaded just-in-time from the path in `registry.json`.
+At session start, Claude reads only `REGISTRY.md` -- a compact trigger-table covering all 259 components. When a user request matches a trigger, the corresponding skill/agent/command file is loaded just-in-time from the path in `registry.json`.
 
 ![Architecture](ecc_lazy_loader_architecture.svg)
 
@@ -25,11 +25,11 @@ At session start, Claude reads only `REGISTRY.md` -- a compact trigger-table cov
 
 | Type | Count |
 |------|-------|
-| Skills | 94 |
-| Agents | 18 |
-| Commands | 48 |
+| Skills | 146 |
+| Agents | 38 |
+| Commands | 72 |
 | Contexts | 3 |
-| **Total** | **163** |
+| **Total** | **259** |
 
 ## Key Commands
 
@@ -46,7 +46,7 @@ At session start, Claude reads only `REGISTRY.md` -- a compact trigger-table cov
 | `/refactor-clean` | Remove dead code and duplicates |
 | `/loop-start` | Launch an autonomous agent loop |
 
-Run any command by typing it in your Claude Code session. All 48 commands are listed in `REGISTRY.md`.
+Run any command by typing it in your Claude Code session. All 72 commands are listed in `REGISTRY.md`.
 
 ## Hook Profiles
 
